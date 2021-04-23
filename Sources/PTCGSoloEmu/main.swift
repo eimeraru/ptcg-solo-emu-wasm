@@ -3,9 +3,6 @@ import PTCGPlayerBoard
 
 struct PTCGSoloEmuApp: App {
 
-    @State var count: Int = 0
-    @State var playerBoard: PTCGPlayerBoard!
-    
     var body: some Scene {
         WindowGroup("Tokamak App") {
             ContentView()
