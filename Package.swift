@@ -13,6 +13,12 @@ let package = Package(
         .package(name: "PTCGPlayerBoard",
                  url: "https://github.com/evdwarf/ptcg-player-board",
                  from: "0.0.1"),
+        .package(name: "TokamakHTMLFunctionBuilder",
+                 url: "https://github.com/evdwarf/tokamak-html-function-builder",
+                 from: "0.0.1"),
+        .package(name: "Closswift",
+                 url: "https://github.com/evdwarf/closswift",
+                 from: "0.0.1"),
     ],
     targets: [
         .target(
@@ -20,6 +26,8 @@ let package = Package(
             dependencies: [
                 .product(name: "TokamakShim", package: "Tokamak"),
                 "PTCGPlayerBoard",
+                "TokamakHTMLFunctionBuilder",
+                "Closswift"
             ]),
         .testTarget(
             name: "PTCGSoloEmuTests",

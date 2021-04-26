@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "Closswift",
+        "repositoryURL": "https://github.com/evdwarf/closswift",
+        "state": {
+          "branch": null,
+          "revision": "b9a071b7619683645b3e054286a6a7184e3c7f24",
+          "version": "0.0.1"
+        }
+      },
+      {
         "package": "JavaScriptKit",
         "repositoryURL": "https://github.com/swiftwasm/JavaScriptKit.git",
         "state": {
@@ -80,6 +89,15 @@
           "branch": null,
           "revision": "b4b0efca4de0ce9cff771649dfbcd13c5736e7f0",
           "version": "0.6.1"
+        }
+      },
+      {
+        "package": "TokamakHTMLFunctionBuilder",
+        "repositoryURL": "https://github.com/evdwarf/tokamak-html-function-builder",
+        "state": {
+          "branch": null,
+          "revision": "fa781a4148dd01c513759fbcd85c491a5c0cc620",
+          "version": "0.0.2"
         }
       }
     ]
