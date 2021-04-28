@@ -83,6 +83,15 @@
         }
       },
       {
+        "package": "TailwindSwift",
+        "repositoryURL": "https://github.com/evdwarf/tailwind-swift",
+        "state": {
+          "branch": null,
+          "revision": "6bd15448244fb6752cd18615628c50d3440d582f",
+          "version": "0.0.2"
+        }
+      },
+      {
         "package": "Tokamak",
         "repositoryURL": "https://github.com/TokamakUI/Tokamak",
         "state": {
@@ -96,8 +105,8 @@
         "repositoryURL": "https://github.com/evdwarf/tokamak-html-function-builder",
         "state": {
           "branch": null,
-          "revision": "fa781a4148dd01c513759fbcd85c491a5c0cc620",
-          "version": "0.0.2"
+          "revision": "2447b2b811fda0c507c65da384e66088d3a58ef8",
+          "version": "0.0.4"
         }
       }
     ]
